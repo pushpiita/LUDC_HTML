@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - LUDC</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color:rgb(97, 165, 192);">
+    <div class="container-fluid">
+      <div class="logo-title">
+        <img src="logo...ludc.png" style="height: auto; width: 40px;"/>
+        <a class="navbar-brand" href="index.html">LUDC</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="committe.html">Committee</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Login to LUDC</h2>
+    <form id="loginForm" class="mx-auto" style="max-width: 500px;">
+      <div class="mb-3">
+        <label for="loginEmail" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="loginEmail" required>
+      </div>
+      <div class="mb-3">
+        <label for="loginPassword" class="form-label">Password</label>
+        <input type="password" class="form-control" id="loginPassword" required>
+      </div>
+      <button type="submit" class="btn ludc-btn w-50">Login</button>
+
+    </form>
+  </div>
+  <footer class="text-center text-white py-4" style="background-color: rgb(97, 165, 192);">
+    <p>&copy; 2025 Leading University Debating Club. All rights reserved.</p>
+    <div class="mt-2">
+      <a href="https://www.facebook.com/LeadingUniversityDebatingClub" class="text-white me-3" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+      <a href="https://instagram.com" class="text-white me-3" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+      <a href="https://linkedin.com" class="text-white me-3" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+      <a href="mailto:debatingclub@leadinguniversity.edu.bd" class="text-white"><i class="fas fa-envelope fa-lg"></i></a>
+    </div>
+  </footer>
+
+  <!-- <script>
+    document.getElementById('loginForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const email = document.getElementById('loginEmail').value.trim();
+      const password = document.getElementById('loginPassword').value;
+
+      if (!email || !password) {
+        alert('Please enter both email and password.');
+        return;
+      }
+
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email)) {
+        alert('Please enter a valid email address.');
+        return;
+      }
+
+      alert('Login successful!');
+     
+    });
+  </script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

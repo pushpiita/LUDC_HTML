@@ -1,0 +1,87 @@
+/* styles.css */
+header {
+    position: relative;
+    background-color: skyblue;
+  }
+  header img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    opacity: 0.4; /* subtle fade to blend with skyblue */
+  }
+  header .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    text-align: center;
+    text-shadow: 1px 1px 3px #fff;
+  }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  footer a:hover {
+    color: #0dcaf0; /* Bootstrap cyan */
+    text-decoration: none;
+  }
+  
+  
+  .btn:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  .green-btn {
+    background-color: #2a5a77; /* Green color */
+    border-color: #2a5a77;
+  }
+  
+  .green-btn:hover {
+    background-color: #2a5a77; /* Darker green on hover */
+    border-color: #2a5a77;
+  }
+
+  .logo-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  
+  .skyblue-bg {
+    background-color: rgb(43, 139, 177);
+  }
+  .green-btn:hover {
+    background-color: #1f4a63;
+    border-color: #1f4a63;
+    color: white;
+  }
+  .ludc-btn {
+    background-color: rgb(97, 165, 192) !important;
+    color: white !important;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+  }
+  
+  .ludc-btn:hover {
+    background-color: rgb(77, 140, 165) !important;
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+    
+      
+  
+  
